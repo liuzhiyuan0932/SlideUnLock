@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SlideUnlockButton">
+
+        <!-- 开关背景图片的属性, 引用的是R.drawable.xx. -->
+        <attr name="slideUnlockBackgroundResource" format="reference" />
+
+        <!-- 开关滑动块图片的属性, 引用的是R.drawable.xx. -->
+        <attr name="slideUnlockBlockResource" format="reference" />
+
+        <!-- 开关当前的状态的属性, true 打开, false 关闭 -->
+        <attr name="unLockState" format="boolean" />
+    </declare-styleable>
+
+</resources>
